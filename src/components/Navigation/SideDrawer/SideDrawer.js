@@ -9,7 +9,7 @@ const sideDrawer =(props) => {
             <div className="Logo">
             <Logo height="11%"/>
             </div>
-            <nav>
+            <nav className="DesktopOnly">
                 <NavigationItems/>
             </nav>
         </div>
